@@ -112,3 +112,7 @@ p{
 span {
   text-decoration: underline;
 }
+
+tr{
+  margin : 0 auto;
+}
