@@ -3,38 +3,58 @@
   background-color: rgb(225, 235, 235);
   padding: 100px 0 0 0;
   position: relative;
-  /* height: 800px; */
+  height: 100%;
 }
 
 .midDiv {
   padding: 100px 0 0;
-  margin-bottom:30px;
-}
-
-.skills-row{
-  margin: 30px;
-}
-
-.profile{
-  margin: 30px;
+  margin-bottom: 30px;
 }
 
 .bottomDiv {
+  height: 75vh;
   padding: 50px;
 }
 
-/* .mountainImg{
-  position: absolute;
-  bottom: 0;
-  width: 50%;
-  margin: 0 auto;
-} */
+.copyright {
+  margin-top: 5%;
+  text-align: center;
+}
 
+.skills {
+  height: 100vh;
+  padding: 1%;
+  background-color: #e1ebeb;
+}
+
+.skills-row {
+  margin: 30px;
+}
+
+.profile {
+  margin: 5% 0;
+  line-height: 2;
+}
+
+
+.mountainImg {
+  /* position: absolute; */
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+}
 
 .info {
   margin: 0 auto;
-  width: 700px;
-  font-size: 24px;
+  width: 50%;
+  font-size: 2rem;
+}
+
+.bottom-info {
+  margin: 100px auto;
+  width: 50%;
+  font-size: 2rem;
+  line-height: 2;
 }
 
 /*****IMAGE CLASS SELCTORS*****/
@@ -50,29 +70,46 @@
   left: 150px;
 }
 
-
-
 .icon {
-  width: 10%;
+  width: 15%;
 }
 
-.skill-row{
-  margin: 30px;
+.skill-info {
+  margin: 0;
+  font-size: 1.65rem;
+}
+
+.code-img {
+  float: left;
+  margin-right: 2rem;
+}
+
+.consistency-img {
+  float: right;
+  margin-left: 2rem;
+}
+
+.skill-row {
+  margin: 100px auto;
+  width: 75%;
+  text-align: left;
+  line-height: 2;
 }
 
 
-.footer-icon{
-  width : 50px;
+.footer-icon {
+  width: 50px;
 }
 
-.footer-table{
+.footer-table {
   margin: 0 auto;
   width: 800px;
 }
 
-.footer-link{
+.footer-link {
   font-size: 1.5rem;
 }
+
 /*****ID SELCTORS*****/
 
 
@@ -88,31 +125,39 @@ h1 {
   margin: 0;
   font-size: 5.625rem;
   font-family: 'Sacramento', cursive;
-  color: rgb(74 ,177, 154);
+  color: rgb(74, 177, 154);
 }
 
 h2 {
-  font-size: 3rem;
-  color: rgb(59 ,134, 106);
+  font-size: 4rem;
+  color: rgb(59, 134, 106);
 }
 
-h3{
-  font-size: 2rem;
+h3 {
+  font-size: 2.5rem;
+  margin: 0;
   color: rgb(75, 170, 155);
 }
 
 hr {
   width: 10%;
-  border: grey 5px;
+  border: grey 8px;
   border-style: dotted none none;
 }
-p{
+
+p {
   font-family: 'Merriweather', serif;
 }
+
 span {
   text-decoration: underline;
 }
 
-tr{
-  margin : 0 auto;
+tr {
+  margin: 0 auto;
+}
+
+a {
+  color: rgb(59, 134, 106);
+  text-decoration: none;
 }
