@@ -12,17 +12,13 @@
 }
 
 .bottomDiv {
-  height: 75vh;
+  margin-top: 64px;
   padding: 50px;
 }
 
-.copyright {
-  margin-top: 5%;
-  text-align: center;
-}
 
 .skills {
-  height: 100vh;
+  /* height: 100vh; */
   padding: 1%;
   background-color: #e1ebeb;
 }
@@ -51,8 +47,8 @@
 }
 
 .bottom-info {
-  margin: 100px auto;
-  width: 50%;
+  margin: 48px auto;
+  width: 75%;
   font-size: 2rem;
   line-height: 2;
 }
@@ -82,11 +78,15 @@
 .code-img {
   float: left;
   margin-right: 2rem;
+  margin-top: 2rem;
+  width: 25%;
 }
 
 .consistency-img {
   float: right;
   margin-left: 2rem;
+  margin-top: 2rem;
+  width: 25%;
 }
 
 .skill-row {
