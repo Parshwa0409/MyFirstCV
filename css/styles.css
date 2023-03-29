@@ -72,21 +72,22 @@
 
 .skill-info {
   margin: 0;
-  font-size: 1.65rem;
+  font-size: 1.5rem;
 }
 
 .code-img {
-  float: left;
-  margin-right: 2rem;
-  margin-top: 2rem;
-  width: 15%;
+  float: right;
+  margin-left: 2rem;
+  margin-top: 0.75rem;
+  width: 20%;
+
 }
 
 .consistency-img {
-  float: right;
-  margin-left: 2rem;
+  float: left;
+  margin-right: 2rem;
   margin-top: 2rem;
-  width: 15%;
+  width: 20%;
 }
 
 .skill-row {
@@ -95,7 +96,6 @@
   text-align: left;
   line-height: 2;
 }
-
 
 .footer-icon {
   width: 50px;
